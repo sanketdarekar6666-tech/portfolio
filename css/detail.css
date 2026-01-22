@@ -1,0 +1,23 @@
+body{
+  background:#0f172a;
+  color:#e5e7eb;
+  font-family:Segoe UI;
+  padding:40px;
+}
+
+.detail-card{
+  background:#020617;
+  padding:30px;
+  border-radius:18px;
+  box-shadow:0 0 30px rgba(56,189,248,0.7);
+  max-width:700px;
+}
+
+.detail-card h2{
+  color:#38bdf8;
+}
+
+.detail-card p{
+  line-height:1.7;
+  margin-top:10px;
+}

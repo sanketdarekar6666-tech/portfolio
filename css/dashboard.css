@@ -1,0 +1,25 @@
+body{
+  background:#0f172a;
+  color:#e5e7eb;
+  font-family:Segoe UI;
+  padding:40px;
+}
+
+.dash-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:25px;
+}
+
+.dash-card{
+  background:#020617;
+  padding:30px;
+  border-radius:18px;
+  box-shadow:0 0 30px rgba(56,189,248,0.7);
+  transition:0.4s;
+}
+
+.dash-card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 0 45px rgba(56,189,248,1);
+}
